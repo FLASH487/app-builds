@@ -8,7 +8,7 @@ App Store or Google Play yet. They are linked from the products on
 |---|---|---|---|---|
 | `thekurd.apk`  | Kurdistan Barber | Android | 1.0.0 | signed, installs directly |
 | `thekurd.ipa`  | Kurdistan Barber | iOS     | 1.0.0 | unsigned, needs sideloading |
-| `kurdlink.apk` | KurdLink         | Android | 1.1.0 | signed, installs directly |
+| `kurdlink.apk` | KurdLink         | Android | 1.1.1 | signed, installs directly |
 | `kurdlink.ipa` | KurdLink         | iOS     | 1.0.0 | unsigned, needs sideloading |
 
 **Android** — download the `.apk` and open it. Your phone will ask you to allow
@@ -19,6 +19,21 @@ to be re-signed with your own Apple ID using Sideloadly or AltStore.
 
 This repository holds the built packages only. The source for both apps is
 private.
+
+## KurdLink 1.1.1
+
+Installs straight over 1.1.0 and over 1.0.0 — same signing key throughout.
+
+- Making your page could fail with "Too Many Attempts." A username is
+  refused until it happens to be free, so typing over a taken one is the
+  normal way this goes — and five refusals locked you out of the account you
+  had just created, for an hour. The limit was the wrong shape and is fixed
+  on the server, so this part is already better even without updating.
+- Errors now appear above the boxes you are filling in, and the page scrolls
+  back to them. The create-page sheet used to show nothing at all: the
+  attempt failed, and it just sat there.
+- Errors are written in the language you picked. The "too many attempts"
+  message was always English whatever the app was set to.
 
 ## KurdLink 1.1.0
 
