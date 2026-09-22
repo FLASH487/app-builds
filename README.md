@@ -8,7 +8,7 @@ App Store or Google Play yet. They are linked from the products on
 |---|---|---|---|---|
 | `thekurd.apk`  | Kurdistan Barber | Android | 1.0.0 | signed, installs directly |
 | `thekurd.ipa`  | Kurdistan Barber | iOS     | 1.0.0 | unsigned, needs sideloading |
-| `kurdlink.apk` | KurdLink         | Android | 1.1.3 | signed, installs directly |
+| `kurdlink.apk` | KurdLink         | Android | 1.1.4 | signed, installs directly |
 | `kurdlink.ipa` | KurdLink         | iOS     | 1.0.0 | unsigned, needs sideloading |
 
 **Android** — download the `.apk` and open it. Your phone will ask you to allow
@@ -19,6 +19,29 @@ to be re-signed with your own Apple ID using Sideloadly or AltStore.
 
 This repository holds the built packages only. The source for both apps is
 private.
+
+## KurdLink 1.1.4
+
+Installs straight over 1.1.3 — same signing key throughout.
+
+- **The app tells you if a name is taken while you type it.** Picking your
+  address used to mean filling the whole form, pressing the button, and reading
+  a refusal — and every try used up one of your few attempts, so somebody
+  reaching for a popular name could lock themselves out of the account they had
+  just made. The rule for what a name may contain now sits under the box from
+  the start instead of only appearing after you get it wrong.
+- **Buying something says so.** You pay in the browser, come back, and the app
+  used to say nothing at all — the only sign it worked was noticing the Buy
+  button had changed. It now tells you the purchase landed. The expiry date on
+  what you own is written the way Iraq writes a date instead of as a raw
+  timestamp.
+- **Kurdish is the right size.** The four labels under your page preview, and
+  the three-way switcher above it, were drawing Kurdish about a fifth smaller
+  than the rest of the app.
+- **Discover copes with big text.** The row of top pages had a fixed height, so
+  raising your phone's font size made it spill over.
+- **Nine buttons got names** so a screen reader can read them out — the close,
+  clear and remove ones, which were the unnamed ones.
 
 ## KurdLink 1.1.3
 
