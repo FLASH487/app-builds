@@ -8,7 +8,7 @@ App Store or Google Play yet. They are linked from the products on
 |---|---|---|---|---|
 | `thekurd.apk`  | Kurdistan Barber | Android | 1.0.0 | signed, installs directly |
 | `thekurd.ipa`  | Kurdistan Barber | iOS     | 1.0.0 | unsigned, needs sideloading |
-| `kurdlink.apk` | KurdLink         | Android | 1.1.2 | signed, installs directly |
+| `kurdlink.apk` | KurdLink         | Android | 1.1.3 | signed, installs directly |
 | `kurdlink.ipa` | KurdLink         | iOS     | 1.0.0 | unsigned, needs sideloading |
 
 **Android** — download the `.apk` and open it. Your phone will ask you to allow
@@ -19,6 +19,35 @@ to be re-signed with your own Apple ID using Sideloadly or AltStore.
 
 This repository holds the built packages only. The source for both apps is
 private.
+
+## KurdLink 1.1.3
+
+Installs straight over 1.1.2 — same signing key throughout.
+
+- **The app opens on your page now.** It used to open on Explore, a list of
+  other people's pages, with yours one tab away every single time. If you have
+  no page of your own yet you still land on Explore, because your page would
+  be an empty screen.
+- **Arrows point the right way in Kurdish and Arabic.** Ten of them did not,
+  including the Continue button on the first screen after you sign in, which
+  wore an arrow that looked like Back.
+- **No more "Pro" badge.** Every page in the app wore one, for a plan that does
+  not exist. Your public page never showed it.
+- **Failures say what went wrong.** The music screen and the store used to
+  swallow them: an add that failed simply did not happen. The store also used
+  to answer a dead connection with a blank gap and a spinner that never
+  stopped; it now says what happened and offers to try again.
+- **Edit profile is readable.** Your page's font used to be filed under
+  "Search and appearance" between two search boxes. It is under its own
+  heading now, and the sixteen social account boxes are folded away unless you
+  have some filled in.
+- **Smaller things:** three buttons were too small to hit reliably; the QR
+  colour swatches are the worst of them and are fixed. Three animations
+  ignored the phone's Reduce Motion setting. Long lists no longer blur their
+  background, which is easier on a cheap phone's battery.
+- Under the hood: the app used to carry a second, older layout and would drop
+  you into it if your sign-in token went stale — every tab in a different
+  place. There is one layout now.
 
 ## KurdLink 1.1.2
 
