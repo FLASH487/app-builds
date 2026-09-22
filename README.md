@@ -8,7 +8,7 @@ App Store or Google Play yet. They are linked from the products on
 |---|---|---|---|---|
 | `thekurd.apk`  | Kurdistan Barber | Android | 1.0.0 | signed, installs directly |
 | `thekurd.ipa`  | Kurdistan Barber | iOS     | 1.0.0 | unsigned, needs sideloading |
-| `kurdlink.apk` | KurdLink         | Android | 1.1.1 | signed, installs directly |
+| `kurdlink.apk` | KurdLink         | Android | 1.1.2 | signed, installs directly |
 | `kurdlink.ipa` | KurdLink         | iOS     | 1.0.0 | unsigned, needs sideloading |
 
 **Android** — download the `.apk` and open it. Your phone will ask you to allow
@@ -19,6 +19,27 @@ to be re-signed with your own Apple ID using Sideloadly or AltStore.
 
 This repository holds the built packages only. The source for both apps is
 private.
+
+## KurdLink 1.1.2
+
+Installs straight over 1.1.1 — same signing key throughout.
+
+- **You can send your link now.** KurdLink is one link for everything, and
+  there was no button anywhere on My Page to give that link to anybody. The
+  only way left after the first week was Account, scroll down, "Profile link",
+  tap, and it copied without telling you. There is a share button on My Page,
+  beside Store.
+- **Your page says it is live.** Nothing in KurdLink ever publishes — your page
+  is public from the moment it exists — so nothing ever told you it was up.
+  The handle now carries a lit dot and the word Live.
+- **Nothing is locked any more.** Map, Booking, YouTube, Spotify, Apple Music,
+  Twitch, embeds, nine of the twelve layouts and two of the profile switches
+  all wore a padlock that said "available with KurdLink Pro". There is no Pro,
+  there never will be, and there was nowhere to buy it. The padlocks are gone.
+- **The app asks before throwing away what you typed.** Swiping back out of
+  the profile or link editor used to discard everything, silently, with no
+  question — and the X in the corner did the same. Both now ask, and both
+  close buttons have a name so a screen reader can read them out.
 
 ## KurdLink 1.1.1
 
