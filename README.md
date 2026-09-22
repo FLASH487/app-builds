@@ -8,7 +8,7 @@ App Store or Google Play yet. They are linked from the products on
 |---|---|---|---|---|
 | `thekurd.apk`  | Kurdistan Barber | Android | 1.0.0 | signed, installs directly |
 | `thekurd.ipa`  | Kurdistan Barber | iOS     | 1.0.0 | unsigned, needs sideloading |
-| `kurdlink.apk` | KurdLink         | Android | 1.1.5 | signed, installs directly |
+| `kurdlink.apk` | KurdLink         | Android | 1.1.6 | signed, installs directly |
 | `kurdlink.ipa` | KurdLink         | iOS     | 1.0.0 | unsigned, needs sideloading |
 
 **Android** — download the `.apk` and open it. Your phone will ask you to allow
@@ -19,6 +19,27 @@ to be re-signed with your own Apple ID using Sideloadly or AltStore.
 
 This repository holds the built packages only. The source for both apps is
 private.
+
+## KurdLink 1.1.6
+
+Installs straight over 1.1.5 — same signing key throughout.
+
+- **Deleting your account works.** It could not be done at all if your
+  username had a capital letter in it: the app lit the Delete button and the
+  server then said "type your username", to somebody who just had. Fixed on
+  the server too, so older versions of the app can delete as well.
+- **The username box says what is actually wrong.** Typing `shilan.photo` used
+  to show the whole rule in red, which did not say the dot was the problem.
+  Now it says "No dots — use _ instead" and offers `shilan_photo` as a
+  one-tap fix. It checks whether a name is free as you type, on the My Page
+  sheet as well as at sign-up.
+- **Social boxes take a handle.** Type `@shilan.photo` in the Instagram box, or
+  your WhatsApp number the way you would write it — the app builds the
+  address. It used to refuse the whole profile save without a full link.
+- **Links do not need https:// any more,** and phone numbers typed in Kurdish
+  digits work.
+- **Every box shows its limit before you hit it,** and errors say what to do
+  instead of repeating the box's name.
 
 ## KurdLink 1.1.5
 
